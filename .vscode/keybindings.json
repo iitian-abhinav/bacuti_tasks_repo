@@ -1,0 +1,17 @@
+[
+  {
+    "key": "cmd+enter",
+    "command": "notebook.cell.execute",
+    "when": "notebookEditorFocused"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "jupyter.runCell",
+    "when": "notebookEditorFocused"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "-jupyter.runCellAndInsertBelow",
+    "when": "notebookEditorFocused"
+  }
+]
